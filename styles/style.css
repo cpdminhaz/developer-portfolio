@@ -1,0 +1,43 @@
+/* Universal font style */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.universal-color {
+    color: #FD6E0A
+}
+
+.universal-btn-color {
+    background-color: #FD6E0A;
+    color: white;
+}
+
+#hire-me {
+    border-radius: 5px; border: 0;width: 150px; height: 64px; font-size: 20px;padding: 18px 36px;
+}
+
+/* nav related style */
+nav {
+    display: flex;justify-content: space-between; align-items: center;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display:
+        flex;align-items: center;
+}
+
+nav li {
+    margin-right: 50px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747
+}
